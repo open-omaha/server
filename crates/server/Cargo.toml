@@ -14,5 +14,8 @@ path = "src/main.rs"
 axum = { version = "0.8", default-features = false, features = ["http1", "tokio"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "net", "signal"] }
 
+[dev-dependencies]
+tower = { version = "0.5", features = ["util"] }
+
 [lints]
 workspace = true
