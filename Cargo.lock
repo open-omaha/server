@@ -849,6 +849,8 @@ name = "open-omaha-server"
 version = "0.0.1"
 dependencies = [
  "axum",
+ "subtle",
+ "tempfile",
  "tokio",
  "tower",
 ]
